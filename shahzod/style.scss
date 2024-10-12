@@ -24,6 +24,7 @@
         display: flex;
         align-items: center;
         background: var(--bg-color);
+        padding: 8px;
 
 
         .header-inner {
@@ -83,7 +84,11 @@
                     }
                 }
             }
+            i{
+                display: none;
+            }
         }
     }
 }
 
+@import 'responsive'

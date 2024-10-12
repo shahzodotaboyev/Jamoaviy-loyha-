@@ -1,0 +1,17 @@
+@media (max-width:1024px) {
+    .container{
+        header{
+            .header-inner{
+                .header-links{
+                    display: none;
+                }
+                i{
+                    display: block;
+                    font-size: 35px;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

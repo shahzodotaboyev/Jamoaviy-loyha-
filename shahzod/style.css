@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   background: var(--bg-color);
+  padding: 8px;
 }
 .container header .header-inner {
   max-width: 1200px;
@@ -68,4 +69,19 @@
 }
 .container header .header-inner .header-links ul .end {
   color: var(--text-color);
+}
+.container header .header-inner i {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .container header .header-inner .header-links {
+    display: none;
+  }
+  .container header .header-inner i {
+    display: block;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=style.css.map */
