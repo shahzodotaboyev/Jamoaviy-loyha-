@@ -308,4 +308,46 @@
   line-height: 24px;
   text-align: left;
   color: var(--bg-color);
+}
+
+.section-6 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(249, 249, 255);
+  padding: 50px 0;
+}
+.section-6 .support_img {
+  display: flex;
+  justify-content: space-between;
+}
+.section-6 .support_img .support_div {
+  padding-top: 150px;
+}
+.section-6 .support_img .support_div h4 {
+  color: var(--bg-color);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  padding-bottom: 16px;
+}
+.section-6 .support_img .support_div h3 {
+  width: 625px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: var(--bg-color);
+  padding-bottom: 24px;
+}
+.section-6 .support_img .support_div p {
+  width: 622px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: var(--bg-color);
 }/*# sourceMappingURL=furqat.css.map */
