@@ -31,7 +31,6 @@
         background: var(--bg-color);
         padding: 8px;
 
-
         .header-inner {
             max-width: 1200px;
             width: 100%;
@@ -40,6 +39,8 @@
             align-items: center;
             margin: auto;
             justify-content: space-between;
+            position: sticky;
+            top: 0;
 
             .logo {
                 h1 {
@@ -178,4 +179,55 @@
     }
 
 
+}
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+    padding: 50px 0;
+
+    .our_progres {
+        h4 {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-align: left;
+            color: var(--bg-color);
+            padding-bottom: 16px;
+        }
+
+        h2 {
+            width: 733px;
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 58px;
+            text-align: left;
+            color: var(--bg-color);
+            padding-bottom: 16px;
+        }
+
+        p {
+            width: 645px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #232536;
+            padding-bottom: 65px;
+        }
+
+        .our_progres_cards {
+            display: flex;
+
+            .our_progres_cards_one {
+                width: 395px;
+                height: 164px;
+                border: 1px solid rgba(35, 37, 54, 0.17)
+            }
+        }
+    }
 }
