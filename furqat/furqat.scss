@@ -183,7 +183,7 @@
 
 .section-2 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 50px 0;
 
     .our_progres {
@@ -222,11 +222,46 @@
 
         .our_progres_cards {
             display: flex;
-
+            justify-content: space-between;
+            padding-bottom: 20px;
             .our_progres_cards_one {
                 width: 395px;
                 height: 164px;
-                border: 1px solid rgba(35, 37, 54, 0.17)
+                border: 1px solid rgba(35, 37, 54, 0.17);
+                display: flex;
+                padding: 30px 20px;
+
+                h6 {
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    text-align: left;
+                    color: black;
+                    padding-bottom: 6px;
+                    padding-left: 10px;
+                }
+
+                p {
+                    width: 280px;
+                    padding-left: 10px;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: rgba(35, 37, 54, 1);
+
+                }
+
+                h4 {
+                    font-family: Poppins;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 32px;
+                    text-align: right;
+                    color: lightgray;
+                }
             }
         }
     }
