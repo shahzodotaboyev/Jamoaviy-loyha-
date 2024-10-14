@@ -350,4 +350,43 @@
   line-height: 24px;
   text-align: left;
   color: var(--bg-color);
+}
+
+.section-7 {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0;
+}
+.section-7 .newsletter {
+  width: 1256px;
+  height: 333px;
+  background: rgb(102, 109, 255);
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  padding: 96px 98px;
+}
+.section-7 .newsletter .newsletter_left h3 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 13px;
+}
+.section-7 .newsletter .newsletter_left h1 {
+  width: 488px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #fff;
+}
+.section-7 .newsletter input {
+  width: 454px;
+  height: 64px;
+  padding: 20px 30px;
 }/*# sourceMappingURL=furqat.css.map */
