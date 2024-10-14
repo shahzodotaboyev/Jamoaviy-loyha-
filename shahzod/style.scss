@@ -84,8 +84,85 @@
                     }
                 }
             }
-            i{
+
+            i {
                 display: none;
+            }
+        }
+    }
+
+    main {
+        .section-1 {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            max-height: 898px;
+            margin-top: 96px;
+            justify-content: space-between;
+            height: 100%;
+            background-color: var(--bg-color);
+
+            .home-page-left {
+                width: 50%;
+
+                h1 {
+                    font-size: 56px;
+                    font-weight: 600;
+                    line-height: 68px;
+                    color: #fff;
+                }
+
+                p {
+                    font-size: 16px;
+                    max-width: 528px;
+                    color: #ffffff57;
+                    margin: 24px 0 32px;
+                }
+
+                button {
+                    width: 219px;
+                    height: 64px;
+                    border: none;
+                    font-size: 16px;
+                    color: #fff;
+                    background-color: var(--bg-color2);
+                }
+            }
+        }
+
+        .section-2 {
+            margin: auto;
+            max-width: 1200px;
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo-inf {
+                display: flex;
+                flex-direction: column;
+
+                b {
+                    font-size: 14px;
+                    color: #ffffff52;
+                    font-weight: 500;
+
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #fff;
+                }
+
+            }
+
+            .logo {
+                width: 90;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
             }
         }
     }
