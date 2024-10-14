@@ -102,6 +102,10 @@
             justify-content: space-between;
             height: 100%;
             background-color: var(--bg-color);
+            padding: 10px;
+.home-page-img-right{
+    display: none;
+}
 
             .home-page-left {
                 width: 50%;
@@ -128,6 +132,10 @@
                     color: #fff;
                     background-color: var(--bg-color2);
                 }
+            }
+
+            img {
+                width: 45%;
             }
         }
 
