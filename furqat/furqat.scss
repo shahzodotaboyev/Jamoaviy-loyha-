@@ -421,6 +421,7 @@
         align-items: center;
         gap: 120px;
         padding: 96px 98px;
+
         .newsletter_left {
             h3 {
                 font-family: Poppins;
@@ -444,12 +445,115 @@
             }
         }
 
-      
-            input {
-                width: 454px;
-                height: 64px;
-                padding: 20px 30px;
 
+        input {
+            width: 454px;
+            height: 64px;
+            padding: 20px 30px;
+
+        }
+    }
+}
+
+.section-8 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+
+    .specials {
+        display: flex;
+        justify-content: space-between;
+
+        .specials_left {
+            h1 {
+                width: 452px;
+                font-family: Poppins;
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 58px;
+                text-align: left;
+                padding-bottom: 40px;
+                color: var(--bg-color);
             }
+
+            h4 {
+                //styleName: H4 Heading;
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 36px;
+                text-align: left;
+                color: var(--bg-color);
+                padding-bottom: 28px;
+            }
+
+            h5 {
+                padding-bottom: 4px;
+                font-family: Poppins;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                text-align: left;
+                color: var(--bg-color);
+            }
+
+            h5:nth-child(4) {
+                padding-bottom: 20px;
+            }
+
+            p {
+                width: 206px;
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                text-align: left;
+                color: var(--bg-color);
+            }
+        }
+
+        .specials_list {
+            p {
+                //styleName: H6 Heading;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 28px;
+                text-align: left;
+                color: var(--bg-color);
+                padding-bottom: 12px;
+            }
+        }
+    }
+}
+
+footer {
+    background: rgba(255, 230, 210, 1);
+    width: 100%;
+    height: 90px;
+
+    .footers {
+        display: flex;
+        padding-top: 20px;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        p {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            color: var(--bg-color);
+        }
+        .footers_socials{
+            display: flex;
+            gap: 10px;
+        }
     }
 }
